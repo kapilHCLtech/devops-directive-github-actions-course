@@ -1,9 +1,5 @@
 name: Practical Demo Workflow
-
-on:
-  # 1. Cron Schedule Event (Runs every 15 minutes)
-  schedule:
-    - cron: "*/15 * * * *"
+  on:
 
   # 2. Pull Request Path Filtering Event
   pull_request:
